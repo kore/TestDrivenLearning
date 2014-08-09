@@ -1,0 +1,13 @@
+{
+    "name":         "kore/test-driven-learning",
+    "description":  "Small repository trying to provide the basics for a test driven learning approach.",
+    "autoload": {
+        "psr-0": {
+            "Acme": ["src/", "tests/"]
+        }
+    },
+    "require-dev": {
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "@stable"
+    }
+}
