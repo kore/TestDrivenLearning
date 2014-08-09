@@ -15,7 +15,7 @@ class SimpleStringCalculatorTest extends \PHPUnit_Framework_TestCase
     public function testSumEmptyString()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             0,
             $calculator->add("")
         );
@@ -24,7 +24,7 @@ class SimpleStringCalculatorTest extends \PHPUnit_Framework_TestCase
     public function testSumUnaryString()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             1,
             $calculator->add("1")
         );
@@ -33,7 +33,7 @@ class SimpleStringCalculatorTest extends \PHPUnit_Framework_TestCase
     public function testSumUpTwoNumbers()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             3,
             $calculator->add("1,2")
         );

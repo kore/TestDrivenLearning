@@ -12,7 +12,7 @@ class AnyNumberStringCalculatorTest extends \PHPUnit_Framework_TestCase
     public function testSumUpStringWithManyNumbers()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             15,
             $calculator->add("1,2,3,4,5")
         );

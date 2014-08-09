@@ -17,7 +17,7 @@ class LineBreakStringCalcualtorTest extends \PHPUnit_Framework_TestCase
     public function testSumUpStringWithLineBreak()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             6,
             $calculator->add("1\n2,3")
         );

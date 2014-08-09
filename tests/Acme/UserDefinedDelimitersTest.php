@@ -16,7 +16,7 @@ class UserDefinedDelimitersTest extends \PHPUnit_Framework_TestCase
     public function testUseCustomDelimiter()
     {
         $calculator = new StringCalculator();
-        $this->assertEquals(
+        $this->assertSame(
             3,
             $calculator->add("//;\n1;2")
         );
