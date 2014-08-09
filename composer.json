@@ -8,6 +8,7 @@
     },
     "require-dev": {
         "phpmd/phpmd": "@stable",
+        "sebastian/phpcpd": "@stable",
         "phpunit/phpunit": "@stable"
     }
 }
