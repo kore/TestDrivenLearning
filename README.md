@@ -22,6 +22,12 @@ the code coverage of your tests and certain design priciples. You can / should
 make this work, too. If you want to ignore certain failures, feel free to adapt
 the build.properties file accordingly.
 
+## Requirements
+
+* PHP (CLI) >= 5.3
+
+* Ant >= 1.8
+
 ## TODO
 
 * Ensure object calistenics rules are followed in build process
