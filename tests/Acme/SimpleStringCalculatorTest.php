@@ -9,6 +9,10 @@ namespace Acme;
  * empty string it will return 0) for example "" or "1" or "1,2"
  *
  * @group step1
+ * @group step2
+ * @group step3
+ * @group step4
+ * @group step5
  */
 class SimpleStringCalculatorTest extends \PHPUnit_Framework_TestCase
 {

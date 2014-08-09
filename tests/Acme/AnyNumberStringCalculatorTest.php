@@ -6,6 +6,9 @@ namespace Acme;
  * Allow the add() method to handle an unknown amount of numbers
  *
  * @group step2
+ * @group step3
+ * @group step4
+ * @group step5
  */
 class AnyNumberStringCalculatorTest extends \PHPUnit_Framework_TestCase
 {

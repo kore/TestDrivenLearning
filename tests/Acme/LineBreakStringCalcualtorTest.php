@@ -11,6 +11,8 @@ namespace Acme;
  * * An empty number is also not OK: "1,"
  *
  * @group step3
+ * @group step4
+ * @group step5
  */
 class LineBreakStringCalcualtorTest extends \PHPUnit_Framework_TestCase
 {

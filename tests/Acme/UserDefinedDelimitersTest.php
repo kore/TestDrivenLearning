@@ -10,6 +10,7 @@ namespace Acme;
  * the default delimiter is ";". The first line is optional.
  *
  * @group step4
+ * @group step5
  */
 class UserDefinedDelimitersTest extends \PHPUnit_Framework_TestCase
 {
