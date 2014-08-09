@@ -19,7 +19,8 @@ or on a bad connection you might want to add the following paramter:
 
 Beside the simple tests there are some additional verifications applied, like
 the code coverage of your tests and certain design priciples. You can / should
-make this work, too.
+make this work, too. If you want to ignore certain failures, feel free to adapt
+the build.properties file accordingly.
 
 ## TODO
 
