@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CouchDB Endpoint" basedir="./" default="test">
+
+    <!--
+        Include local project properties.
+    -->
+    <property file="${basedir}/build.properties.local" />
+    <property file="${basedir}/build.properties" />
+
+    <property name="step" value="5" />
+
+    <!--
+        Import main target defintions (extension points)
+    -->
+    <import file="${basedir}/ant/main.xml" />
+
+    <!--
+        Enable used modules
+    -->
+    <import file="${basedir}/ant/modules/composer.xml" />
+    <import file="${basedir}/ant/modules/phpunit.xml" />
+    <import file="${basedir}/ant/modules/phpcpd.xml" />
+    <import file="${basedir}/ant/modules/phpmd.xml" />
+
+    <target name="status" extensionOf="-initialize:main~hook">
+        <echo>Executing step ${step}</echo>
+    </target>
+</project>
